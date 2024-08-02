@@ -1,0 +1,95 @@
+@font-face {
+  font-family: 'TT Lakes',sans-serif;
+  src: local('TT Lakes'),
+  url('/fonts/TTLakes-Regular.ttf') format('truetype')
+}
+    
+    
+/* ПЕРВЫЙ ВАРИАНТ */
+body{
+font-family: 'TT Lakes',sans-serif;
+  width: 320px;
+  height: 597px;
+}
+/* шапка */
+.contaner{
+  margin: 0;
+  min-width: 320px;
+  min-height: 88px;
+}
+.header__contaner{
+  display: flex;
+justify-content: center;
+align-items: center;
+
+  max-width: 100%;
+  min-height: 88px;
+  gap: 16px;
+  background: 
+  #FFFFFF;
+}
+/* услуги */
+h1{
+  display: flex;
+  align-items: center;
+  font-size: 28px;
+  margin: 0;
+  gap: 16px;
+}
+
+h2{ 
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  padding-bottom: 30px;
+  margin-left: 16px;
+}
+/* кнопка */
+.main__list{
+  list-style-type: none;
+  padding-top:15px;
+  padding-bottom: 15px;
+}
+
+.link{
+  text-decoration: none;
+  
+  
+  background-color: #FFFFFF;
+  color:#7E7E82;
+  
+  
+  width: 246px;
+  height: 40px;
+  border:2px  solid #B8FFEC;
+  border-radius: 6px; 
+  
+  padding: 10px;
+}
+/* основной контейнер */
+.main__contaner{
+
+  width: 320px;
+  height: 322px;
+
+} 
+
+/* основной текст */
+.text{
+  font-size: 14px;
+
+  width: 288px;
+  height: 90px;
+}
+
+.main{
+  width: 320px;
+  height: 509px;
+  background: #F8F8F8;
+
+}
+
+.GPS{
+  width:320px;
+  height: 176px;
+}
